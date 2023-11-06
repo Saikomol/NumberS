@@ -1,7 +1,4 @@
-<<<<<<< HEAD
 
-=======
->>>>>>> 776e6e7e49a04a03b5029719d8d472e136ae7201
 // Complete the Numbers class below
 // the constructor has already been provided
 class Numbers {
@@ -13,9 +10,9 @@ class Numbers {
       this.data = data;
     }
   }
+
   count() {
     //return the count of numbers in data
-<<<<<<< HEAD
     // console.log('count call'+(this.data.length));//clg is also work as return
     return this.data.length //got to ass return to ake function work
   } 
@@ -124,42 +121,4 @@ console.log(n1.product());//returns product of numbers
 console.log(n1.greaterThan(3));//returns numbers greater than another number
 console.log(n1.howMany(3));//return the count of a specific number
 
-=======
-  }
-  printNumbers() {
-    //print the numbers in data
-  }
-  odds() {
-    //return the odd numbers in data
-  }
-  evens() {
-    //return the even numbers in data
-  }
-  sum() {
-    //return the sum of the numbers
-  }
-  product() {
-    //return the product of the numbers
-  }
-  greaterThan(target) {
-    //return the numbers greater than the target
-  }
-  howMany(target) {
-    //return the count of a given number
-  }
-}
->>>>>>> 776e6e7e49a04a03b5029719d8d472e136ae7201
 
-//Prompt the user for a list of integers separated by commas
-const str = prompt("enter some numbers, like this", "1,2,3,3,5,9");
-
-//create an instance of numbers
-const n1 = new Numbers(str);
-console.log(n1.count()); //returns count of numbers
-n1.printNumbers(); //prints the number along with their indexes
-console.log(n1.odds()); //returns odd numbers
-console.log(n1.evens()); //returns even numbers
-console.log(n1.sum()); //returns sum of numbers
-console.log(n1.product()); //returns product of numbers
-console.log(n1.greaterThan(3)); //returns numbers greater than another number
-console.log(n1.howMany(3)); //return the count of a specific number
